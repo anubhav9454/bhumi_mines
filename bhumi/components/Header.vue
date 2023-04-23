@@ -65,9 +65,28 @@
                 <div class=' px-6 py-4 text-xl text-white bg-[#FF9900] rounded-full'>
                     Get in Touch
                 </div>
-                
-
+            </div>
+        </div>
+        <div class="w-full flex justify-center">
+            <div class="flex bg-[#FF9900] text-white rounded-full justify-around gap-5 px-5 py-3">
+                <NuxtLink class="hover:font-semibold" :class="isCurrent('/')&&'font-bold'" to="/">Home</NuxtLink>
+                <NuxtLink class="hover:font-semibold" :class="isCurrent('/team')&&'font-bold'" to="/team">Our Team</NuxtLink>
+                <NuxtLink class="hover:font-semibold" :class="isCurrent('/services')&&'font-bold'" to="/services">Services</NuxtLink>
+                <NuxtLink class="hover:font-semibold" :class="isCurrent('/about')&&'font-bold'" to="/about">About Us</NuxtLink>
+                <NuxtLink class="hover:font-semibold" :class="isCurrent('/contact')&&'font-bold'" to="/contact">Contact Us</NuxtLink>
             </div>
         </div>  
     </div>
 </template>
+<script>
+    export default{
+        methods: {
+            isCurrent(route){
+                return this.$route.path === route
+            },
+        }
+    }
+</script>
+<style>
+
+</style>
