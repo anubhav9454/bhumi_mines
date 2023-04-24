@@ -67,8 +67,8 @@
                 </div>
             </div>
         </div>
-        <div class="w-full flex justify-center">
-            <div class="flex bg-[#FF9900] text-white rounded-full justify-around gap-5 px-5 py-3">
+        <div class="w-full flex justify-center text-lg relative mt-10">
+            <div class="flex bg-[#FF9900] text-white rounded-full justify-around gap-10 px-10 py-5 z-20 absolute -top-8">
                 <NuxtLink class="hover:font-semibold" :class="isCurrent('/')&&'font-bold'" to="/">Home</NuxtLink>
                 <NuxtLink class="hover:font-semibold" :class="isCurrent('/team')&&'font-bold'" to="/team">Our Team</NuxtLink>
                 <NuxtLink class="hover:font-semibold" :class="isCurrent('/services')&&'font-bold'" to="/services">Services</NuxtLink>
