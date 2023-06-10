@@ -60,12 +60,14 @@
             </div>
             <div class="text-3xl w-[42rem]">
                 <p>What we do and how we do it matters. As we mine and process the minerals that make our world better, our work is guided by these core values.</p>
-                <p><span class="font-bold">Health and Safety</span> <br />we foster a healthy and safe working environment.
+                <p>
+                    <span class="font-bold">Health and Safety</span> <br />we foster a healthy and safe working environment.
                     <ul class="list-disc">
                         <li>   We are properly trained and equipped to do our work injury-free.</li>
                         <li> We constantly look out for on another</li> 
                         <li>  Systems, practices and policies that promote our safety and health are important, but attitude and behaviour matter the most.</li>
                     </ul>
+                    
                     <span class="font-bold">Environment.</span> <br/>We are respectful and protective of our natural surroundings.
                     <ul class="list-disc">
                         <li>We acknowledge the trust others place in us to protect and use resources wisely.</li>
@@ -79,7 +81,6 @@
                         <li>We trust our employees to make good choices and challenge ourselves to greater individual responsibility.</li>
                         <li>We approach our work responsibilites with purpose and determination, our tasks with a sense of pride and ownership, and our achievements and shortcomings with humility.</li>
                     </ul>
-
                 </p>
             </div>
         </div>
